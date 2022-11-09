@@ -10,3 +10,22 @@ body{
 h3{
     color: white;
 }
+
+.topnav{
+    /* overflow is clipped, and the rest of the content will be invisible */
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.topnav a{
+    float: left;
+    /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
